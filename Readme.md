@@ -25,6 +25,7 @@ rm --help >> to get help on specific order such as rm , cp , mv  ... etc ...
 clear >> to delete all commands on screen
 history >> to retrieve all history  of git commands
 exit  >> to quit or close of git bash
+
 _____________________________git_______________________________________
 git config --global user.email "ahmedrefaay6@gmail.com" 
 git config --global user.name "ELZAEM_143"
@@ -32,5 +33,15 @@ git config --global user.name "ELZAEM_143"
 
 git config --global --list >> to give list of all configs
 
-git init >> to craete new repository
+git init >> to create new repository
 ls -a >> to list all files in folder and show repository which is "hidden".
+
+git add [Readme.md>> file name] >> to add file to repository in staging area
+
+git commit -m "message" >> to save file to repository with message.
+
+git log >> logs of all changes
+
+# ELzaem modify this file 
+
+git status >> to show if file modified 
