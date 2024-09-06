@@ -1,0 +1,36 @@
+__________ Basics ______________
+git --version >> to get the version of git
+pwd >> print working directory
+cd  [ path]  >> changing directory
+cd .. >> to move back
+mkdir  [folder name]   >>  to create new directory or folder
+ls  >>  to show list of all directory
+touch [file name] >>  to create new file in folder
+
+__________ copy ______________
+cp -r [new_folder] [my_folder] >> mean to copy the diectory of new_folder into the directory of my_folder
+
+cp  [new_file] [my_file] >> mean to copy the file of new_file into the file of my_file
+
+__________ cut or remove ______________
+rm -r [new_folder] >> mean to remove the diectory of new_folder
+rmdir  >> to remove the empty folder
+
+__________ move ______________
+mv  [new_file] [~ path to move file into] >> to move the  new_file into path destination 
+
+__________ options______________
+date >> to print the date of now
+rm --help >> to get help on specific order such as rm , cp , mv  ... etc ... 
+clear >> to delete all commands on screen
+history >> to retrieve all history  of git commands
+exit  >> to quit or close of git bash
+_____________________________git_______________________________________
+git config --global user.email "ahmedrefaay6@gmail.com" 
+git config --global user.name "ELZAEM_143"
+ >> to make configuaration of use such as email and user name
+
+git config --global --list >> to give list of all configs
+
+git init >> to craete new repository
+ls -a >> to list all files in folder and show repository which is "hidden".
