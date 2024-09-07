@@ -44,4 +44,13 @@ git log >> logs of all changes
 
 # ELzaem modify this file 
 
-git status >> to show if file modified 
+git status >> to show if file modified # Git-and-GitHub-Intro
+
+____________________________GitHub___________________________________
+
+>> 1. creat a new repository into github account 
+>> 2. to move/upload  local repository into Github account use commands in git bash
+
+git remote add origin https://github.com/AhmedNashat143/Git-and-GitHub-Intro
+
+git push origin main
