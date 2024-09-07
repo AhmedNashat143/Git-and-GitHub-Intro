@@ -1,4 +1,5 @@
 __________ Basics ______________
+
 git --version >> to get the version of git
 pwd >> print working directory
 cd  [ path]  >> changing directory
